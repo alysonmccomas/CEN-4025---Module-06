@@ -1,4 +1,36 @@
-img {
+*{
+	text-align: center;
+	background-image: url("assets/images/PATTERN_3.png");
+}
+
+body {
+	background-color: DarkSlateGray;
+	font-family: georgia;
+}
+
+h1 {
+	background-color: white;
+	color: DarkSlateGray;
+	font-size: 40px;
+	text-shadow: 2px 2px 5px SlateGray;
+	border:3px solid SlateGray;
+
+}
+
+h2 {
+	font-variant: small-caps;
+}
+
+h3 {
+	text-align: center;
+}
+
+p {
+	font-style: italic;
+}
+.center {
 	display: block;
-	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
